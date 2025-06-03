@@ -34,7 +34,6 @@ fprintf('\n Problem: n = %g,  m = %g    lambda(max) = %g ',n,m, lambdamax)
 fprintf('\n Lip = %3.2e', Lip);
 fprintf('\n-----------------------------------------------');
 fprintf('------------------------------')
-
 stoptol = 1e-6;%stopping tol
 
 for crho = 1e-3 
